@@ -1,0 +1,17 @@
+.mainDiv {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    /* background: rgb(240, 121, 173);
+    background: radial-gradient(circle, rgba(240, 121, 173, 1) 1%, rgba(236, 130, 176, 1) 16%, rgba(34, 110, 200, 1) 100%); */
+    /* background: rgb(240, 121, 173);
+    background: radial-gradient(circle, rgba(240, 121, 173, 1) 1%, rgba(236, 130, 176, 1) 16%, rgba(4, 89, 190, 1) 100%); */
+    /* background: rgb(240, 121, 173);
+    background: radial-gradient(circle, rgba(240, 121, 173, 1) 15%, rgba(1, 62, 134, 1) 100%); */
+    background: rgb(191, 76, 126);
+    background: radial-gradient(circle, rgba(191, 76, 126, 1) 25%, rgba(1, 62, 134, 1) 100%);
+    /* background: rgb(250, 227, 5); */
+    /* background: radial-gradient(circle, rgba(250, 227, 5, 1) 25%, rgba(1, 62, 134, 1) 100%); */
+}
