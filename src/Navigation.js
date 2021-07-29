@@ -1,4 +1,5 @@
 import React from 'react'
+import './Navigation.module.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './Pages/HomePage/Home'
 export default function Navigation() {
