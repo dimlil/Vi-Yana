@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .mainDiv {
     display: flex;
     height: 100vh;
@@ -36,6 +37,10 @@
 .moto{
     font-size: 35px;
     text-align: center;
+    margin-top: 25px;
+    color: rgb(255, 0, 221);
+    -webkit-text-stroke: 1px #000;
+    font-family: 'Lobster', cursive;
 }
 .linkswrapper{
     display: flex;
