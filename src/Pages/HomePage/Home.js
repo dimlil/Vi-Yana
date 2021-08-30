@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Home.module.css'
-import HomePageNavigationButtons from '../../Components/HomePageNavigationButtons'
+import HomePageNavigationButtons from '../../Components/navigationButtons/HomePageNavigationButtons'
 
 export default function Home() {
     return (
