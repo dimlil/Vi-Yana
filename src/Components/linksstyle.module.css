@@ -1,0 +1,9 @@
+.links{
+
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+    background: #6fb1ff;
+    margin-right: 10px;
+}

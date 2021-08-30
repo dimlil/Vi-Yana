@@ -3,6 +3,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     /* background: rgb(240, 121, 173);
     background: radial-gradient(circle, rgba(240, 121, 173, 1) 1%, rgba(236, 130, 176, 1) 16%, rgba(34, 110, 200, 1) 100%); */
@@ -27,8 +28,13 @@
 .viyana{
     color: yellow;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 .moto{
-    font-size: 25px;
+    font-size: 35px;
+    text-align: center;
+}
+.linkswrapper{
+    display: flex;
+    justify-content: space-between;
 }
