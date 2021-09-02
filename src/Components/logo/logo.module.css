@@ -30,3 +30,9 @@
     -webkit-text-stroke: 3px #FF0000;
     text-shadow: 3px 3px 3px greenyellow;
 }
+@media only screen and (max-width: 750px) {
+    /* For mobile phones: */
+    .logoText{
+        font-size: 12vw;
+    }
+}

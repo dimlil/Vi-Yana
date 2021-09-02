@@ -11,9 +11,10 @@ export default function Home() {
                 <Logo />
                 <p className={styles.moto}>Детски терапевтичен и игрови център</p>
                 <div className={styles.linkswrapper}>
-                    <HomePageNavigationButtons valueFromParent={'Информация'} />
+                    {/* <HomePageNavigationButtons valueFromParent={'Информация'} /> */}
                     <HomePageNavigationButtons valueFromParent={'Услуги'} />
                     <HomePageNavigationButtons valueFromParent={'Защо ранната интервенция е важна?'} />
+                    <HomePageNavigationButtons valueFromParent={'Полезно'} />
                     <HomePageNavigationButtons valueFromParent={'Контакти'} />
                 </div>
             </div>
