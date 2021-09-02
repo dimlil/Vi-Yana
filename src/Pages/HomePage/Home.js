@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Home.module.css'
 import HomePageNavigationButtons from '../../Components/navigationButtons/HomePageNavigationButtons'
 import Logo from '../../Components/logo/Logo'
+import AboutUs from '../../Components/aboutUs/AboutUs'
 
 export default function Home() {
     return (
@@ -18,8 +19,7 @@ export default function Home() {
                     <HomePageNavigationButtons valueFromParent={'Контакти'} />
                 </div>
             </div>
-            {/* <HomePageNavigationButtons valueFromParent={'something'} />
-            <HomePageNavigationButtons valueFromParent={'something2'} /> */}
+            <AboutUs />
         </div>
     )
 }

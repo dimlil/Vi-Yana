@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.aboutUsDiv{
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    /* color: #fff; */
+    font-family: 'Lobster', cursive;
+}
+.aboutUsTextHolder{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mainAboutUsText{
+    margin: 0 1vw;
+    font-size: 150%;
+}
+.aboutUsTextHolder p{
+    width: 49%;
+    padding: 1% 0.1%;
+    background-color: #3c91f8;
+    /* border: 2px solid #00801F; */
+    border: 2px solid #00648D;
+    border-radius: 15px;
+}
+@media only screen and (max-width: 400px) {
+    .aboutUsTextHolder{
+        display: block;
+        width: 100%;
+    }
+    .aboutUsTextHolder p{
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
