@@ -64,3 +64,9 @@
         /* width: 100%; */
     }
   }
+@media only screen and (max-width: 450px) {
+    /* For mobile phones: */
+    .moto{
+        -webkit-text-stroke: 0.5px #000;
+    }
+  }

@@ -35,4 +35,19 @@
     .logoText{
         font-size: 12vw;
     }
+    .Span0{
+        -webkit-text-stroke: 1px #FCBB01;
+    }
+    .Span1{
+        -webkit-text-stroke: 1px #af02d6;
+    }
+    .Span2{
+        -webkit-text-stroke: 1px #fff;
+    }
+    .Span3{
+        -webkit-text-stroke: 1px #05962A;
+    }
+    .Span4{
+        -webkit-text-stroke: 1px #FF0000;
+    }
 }
