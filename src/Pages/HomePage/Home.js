@@ -14,12 +14,22 @@ export default function Home() {
           <p className={styles.moto}>Детски терапевтичен и игрови център</p>
           <div className={styles.linkswrapper}>
             {/* <HomePageNavigationButtons valueFromParent={'Информация'} /> */}
-            <HomePageNavigationButtons valueFromParent={"Услуги"} />
+            <HomePageNavigationButtons
+              valueFromParent={"Услуги"}
+              link={"/services"}
+            />
             <HomePageNavigationButtons
               valueFromParent={"Защо ранната интервенция е важна?"}
+              link={"/Why-is-early-intervention-important"}
             />
-            <HomePageNavigationButtons valueFromParent={"Полезно"} />
-            <HomePageNavigationButtons valueFromParent={"Контакти"} />
+            <HomePageNavigationButtons
+              valueFromParent={"Полезно"}
+              link={"/useful"}
+            />
+            <HomePageNavigationButtons
+              valueFromParent={"Контакти"}
+              link={"/contacts"}
+            />
           </div>
         </div>
       </header>

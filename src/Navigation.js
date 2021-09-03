@@ -9,6 +9,10 @@ export default function Navigation() {
             <BrowserRouter>
                 <Switch>
                     <Route path="/" exact component={Home} />
+                    <Route path="/services" component={Home} />
+                    <Route path="/Why-is-early-intervention-important" component={Home} />
+                    <Route path="/useful" component={Home} />
+                    <Route path="/contacts" component={Home} />
                 </Switch>
             </BrowserRouter>
             <Footer />
