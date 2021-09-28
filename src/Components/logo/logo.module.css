@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .logoText{
     font-family: 'Lobster', cursive;
-    text-align: center;
+    /* text-align: center; */
 }
 .Span0{
     color: #00D039;
