@@ -12,7 +12,7 @@ function HeaderForAllComponentsExeptHome() {
     <div>
       <div className={styles.headerWrapperForMobileHideShow}>
         <div className={styles.headerWrapperForMobile} style={{display: "flex !important"}}>
-          <Link to="/" style={{ "text-decoration": "none" }}>
+          <Link to="/" style={{ "textDecoration": "none" }}>
             <Logo size="50px" position="left" marginTop="15px" />
           </Link>
           <Nav isOpen={open} updateOpen={setOpen}/>
@@ -21,7 +21,7 @@ function HeaderForAllComponentsExeptHome() {
       </div>
 
       <div className={styles.headerWrapper}>
-        <Link to="/" style={{ "text-decoration": "none" }}>
+        <Link to="/" style={{ "textDecoration": "none" }}>
           <Logo size="50px" position="left" marginTop="15px" />
         </Link>
         <div className={styles.headerLinksWrapper}>
