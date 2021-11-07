@@ -61,7 +61,7 @@
     }
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 850px) {
     .headerWrapper {
         align-items: normal !important;
         background-color: red;
@@ -94,6 +94,7 @@
     justify-content: space-between;
     align-items: baseline;
     background-color: #3c91f8;
+    padding-left: 20px;
 }
 
 .headerLinksWrapper {
