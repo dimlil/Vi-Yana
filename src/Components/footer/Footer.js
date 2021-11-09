@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../logo/Logo";
 import styles from "./footer.module.css";
 
@@ -9,13 +10,18 @@ import styles from "./footer.module.css";
 export default function Footer() {
   return (
     <footer>
-      <Logo size="50px" />
+      <Link to="/">
+        <Logo size="50px" />
+      </Link>
       <div>
-        <ul>
+        <ul className={styles.noTextDec}>
           <strong>Links:</strong>
-          <li>Link1</li>
-          <li>Link2</li>
-          <li>Link3</li>
+          <Link to="/services">
+            <li>Услуги</li>
+          </Link>
+          <Link to="/Why-is-early-intervention-important">
+            <li>Защо ранната интервенция е важна?</li>
+          </Link>
           <li>Link3</li>
           <li>Link3</li>
         </ul>

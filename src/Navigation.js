@@ -17,8 +17,9 @@ export default function Navigation() {
           <Route path="/useful" component={Home} />
           <Route path="/contacts" component={Home} />
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -14,3 +14,9 @@ footer ul li{
     margin: 0;
     padding: 0;
 }
+footer a {
+    text-decoration: none;
+}
+.noTextDec{
+    text-decoration: none;
+}
