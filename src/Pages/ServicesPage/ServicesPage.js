@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../../Components/header/Header";
-import styles from "../../Components/aboutUs/aboutUs.module.css";
+import styles from "../../styles/box.module.css";
 
 export default function ServicesPage() {
   return (
     <div>
       <Header />
-      <div className={styles.aboutUsDiv}>
-        <div className={styles.aboutUsTextHolder}>
-          <p>
+      <div className={styles.mainDiv}>
+        <div className={styles.textHolder}>
+          <div className={styles.insideBoxText}>
             Предлагаме индивидуални почасови занимания по предварителна
             уговорка. Родителите, други членове на семействата или грижещи се за
             детето присъстват на заниманията с детето, за да имат възможност да
@@ -17,8 +17,8 @@ export default function ServicesPage() {
             най-ефективна работата в партньорство и възможността родителите да
             продължат стимулацията вкъщи за постигане на по-бързи и успешни
             резултати.
-          </p>
-          <p>
+          </div>
+          <div className={styles.insideBoxText}>
             За деца над 4 годишна възраст предлагаме индивидуални и групови
             занимания, като родителите имат възможност да присъстват или не,
             като впоследствие получават обратна връзка под формата на снимков
@@ -26,9 +26,9 @@ export default function ServicesPage() {
             вкъщи. Присъствието на родители на заниманията се определя за всеки
             индивидуален случай спрямо желанието и възможностите на детето и
             семейството.
-          </p>
+          </div>
         </div>
-        <p className={styles.mainAboutUsText}>
+        <p className={styles.outsideBoxText}>
           Сертифицирани сме за извършване на оценка на детското развитие по
           Рейтинг скала за оценка на детското развитие DP-3. Developmental
           Profile 3 e рейтингова скала за оценка на развитието на деца от 0 г.
@@ -39,14 +39,14 @@ export default function ServicesPage() {
           и потребности от насочване към допълнителни специалисти. Developmental
           Profile 3 дава възможност за създаване на цялостен профил на
           развитието на детето, тъй като изследва всички развитийни области:
-          <div className={styles.aboutUsTextHolder}>
-          <ul>
-            <li>Физическо развитие</li>
-            <li>Адаптивно поведение</li>
-            <li>Социално и емоционално развитие</li>
-            <li>Когнитивно развитие</li>
-            <li>Комуникация</li>
-          </ul>
+          <div className={styles.outsideBoxText}>
+            <ul>
+              <li>Физическо развитие</li>
+              <li>Адаптивно поведение</li>
+              <li>Социално и емоционално развитие</li>
+              <li>Когнитивно развитие</li>
+              <li>Комуникация</li>
+            </ul>
           </div>
           {/* <br />– Физическо развитие <br />– Адаптивно поведение <br />– Социално и
           емоционално развитие <br />– Когнитивно развитие <br />– Комуникация */}

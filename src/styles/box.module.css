@@ -1,4 +1,4 @@
-.aboutUsDiv{
+.mainDiv{
     padding-top: 10px;
     text-align: center;
     background-color: #fff;
@@ -6,33 +6,40 @@
     /* color: #fff; */
     font-family: 'Lobster', cursive;
 }
-.aboutUsTextHolder{
+.textHolder{
     padding-top: 15px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 2.5%;
 }
-.mainAboutUsText{
+.outsideBoxText{
     margin: 0 1vw;
     font-size: 150%;
 }
-.aboutUsTextHolder p{
-    width: 49%;
-    padding: 1% 0.1%;
+.insideBoxText{
+    font-size: 13pt;
+    width: 45%;
+    padding: 1.5%;
     background-color: #3c91f8;
     /* border: 2px solid #00801F; */
     border: 2px solid #00648D;
     border-radius: 15px;
+    text-align: center;
 }
-@media only screen and (max-width: 400px) {
-    .aboutUsTextHolder{
+@media only screen and (max-width: 450px) {
+    .textHolder{
         display: block;
         width: 100%;
     }
-    .aboutUsTextHolder p{
+    .insideBoxText{
+        font-style: 12pt;
+        padding: 1% 0.1%;
         width: 100%;
         margin-bottom: 5%;
         margin-left: 1%;
         margin-right: 1%;
+    }
+    .brainCellsImg{
+        width: 75%;
     }
 }

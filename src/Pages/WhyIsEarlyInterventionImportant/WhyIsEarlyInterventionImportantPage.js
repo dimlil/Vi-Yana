@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../../Components/header/Header";
-import styles from "../../Components/aboutUs/aboutUs.module.css";
+import styles from "../../styles/box.module.css";
 import BrainCells from "./BrainCells.png";
 
 export default function WhyIsEarlyInterventionImportant() {
   return (
     <div>
       <Header />
-      <div className={styles.aboutUsDiv}>
-        <p className={styles.mainAboutUsText}>
+      <div className={styles.mainDiv}>
+        <p className={styles.outsideBoxText}>
           Развитието на интелекта е функция от сбора от опити, осъществени между
           раждането и тригодишната възраст, или с други думи, в периода на
           развитие на мозъчните клетки. Следователно, никое човешко същество не
@@ -16,8 +16,11 @@ export default function WhyIsEarlyInterventionImportant() {
           между раждането и третата година се оказва решаващо за неговото
           бъдеще.
         </p>
-        <div className={styles.aboutUsTextHolder}>
-          <p>
+        <div className={styles.textHolder}>
+          <div
+            className={styles.insideBoxText}
+            style={{ 'display': 'flex', "align-items": 'center' }}
+          >
             В основата на философията на ранната детска интервенция стои
             разбирането, че колкото по-рано детето и неговото семейство бъдат
             подкрепени, толкова по-успешно ще бъдат преодоляни трудностите, пред
@@ -27,8 +30,8 @@ export default function WhyIsEarlyInterventionImportant() {
             за ситуация, изискваща преодоляване на трудност в развитието или
             минимизиране на последиците от дадено увреждане върху качеството на
             живот и способностите на детето.
-          </p>
-          <p>
+          </div>
+          <div className={styles.insideBoxText}>
             При раждането си детето е абсолютно невъоръжено; тъкмо поради това
             способностите му са толкова големи. Всеизвестно е, че при раждането
             си човешкото бебе е много по-неразвито от тези на другите животни:
@@ -43,10 +46,10 @@ export default function WhyIsEarlyInterventionImportant() {
             То трябва да се учи на психомоторика, защото при раждането мозъкът
             му наподобява чисто бял лист. Тъкмо онова, което ще напишем на този
             лист, ще определи способностите и възможностите на детето.
-          </p>
+          </div>
         </div>
         <h1>На тригодишна възраст мозъчните вериги са вече оформени</h1>
-        <p className={styles.mainAboutUsText}>
+        <p className={styles.outsideBoxText}>
           Човешкият мозък има един милиард и четиристотин милиона клетки. При
           новороденото преобладаващата част от тях все още не са „оперативни“ и,
           както показват неотдавнашните изследвания, трябва да се изчака
@@ -66,9 +69,9 @@ export default function WhyIsEarlyInterventionImportant() {
           достигнал 50% от своя потенциал на възрастен, а на тригодишна възраст
           – 80%.
         </p>
-        <img src={BrainCells} alt="Мозъчни клетки" />
-        <div className={styles.aboutUsTextHolder}>
-          <p>
+        <img src={BrainCells} alt="Мозъчни клетки" className={styles.brainCellsImg}/>
+        <div className={styles.textHolder}>
+          <div className={styles.insideBoxText}>
             Това не означава, че след тригодишна възраст клетките престават да
             се развиват: на тази възраст щафетата се поема от задната част на
             мозъка, а на четири години от друга част – предната, където започва
@@ -86,9 +89,9 @@ export default function WhyIsEarlyInterventionImportant() {
             непрекъснато да натискаме копчето за управление, точно както би било
             безсмислено и да искаме един компютър от нисък клас да заработи
             така, че да дава добри резултати.
-          </p>
+          </div>
         </div>
-        <p className={styles.mainAboutUsText}>
+        <p className={styles.outsideBoxText}>
           “Използвайте ги или ги губите” Както, когато правим упражнения за
           тялото мускулите ни укрепват, по същия начин, колкото повече
           стимулираме мозъка, толкова повече невронни връзки се образуват и тези
@@ -101,8 +104,8 @@ export default function WhyIsEarlyInterventionImportant() {
           правилното време,която да създаде базата/платформата на която да
           стъпят висшето мислене и уменията за учене (Perry, 2000)
         </h2>
-        <div className={styles.aboutUsTextHolder}>
-          <p>
+        <div className={styles.textHolder}>
+          <div className={styles.insideBoxText}>
             Правилната стимулация води до правилно:
             <ul>
               <li>Когнитивно развитие</li>
@@ -111,10 +114,10 @@ export default function WhyIsEarlyInterventionImportant() {
               <li>Физическо развитие</li>
               <li>Езиково развитие</li>
             </ul>
-          </p>
+          </div>
         </div>
-        <div className={styles.aboutUsTextHolder}>
-          <p>
+        <div className={styles.textHolder}>
+          <div className={styles.insideBoxText}>
             За съжаление много бебета и деца не получават необходимата
             стимулация. Причини за недостатъчната стимулация и развитие на
             бебетата и децата:
@@ -147,9 +150,9 @@ export default function WhyIsEarlyInterventionImportant() {
                 други.
               </li>
             </ul>
-          </p>
+          </div>
         </div>
-        <p className={styles.mainAboutUsText}>
+        <p className={styles.outsideBoxText}>
           В такива случаи е наложително да се започне системна и продължителна
           интервенция. Специалистите по ранно детско развитие могат да бъдат от
           помощ на семействата и грижещите се за децата. В заключение: Ранното
