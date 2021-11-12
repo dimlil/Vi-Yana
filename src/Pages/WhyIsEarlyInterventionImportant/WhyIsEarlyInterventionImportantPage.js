@@ -19,7 +19,7 @@ export default function WhyIsEarlyInterventionImportant() {
         <div className={styles.textHolder}>
           <div
             className={styles.insideBoxText}
-            style={{ 'display': 'flex', "align-items": 'center' }}
+            style={{ display: "flex", "align-items": "center" }}
           >
             В основата на философията на ранната детска интервенция стои
             разбирането, че колкото по-рано детето и неговото семейство бъдат
@@ -69,7 +69,11 @@ export default function WhyIsEarlyInterventionImportant() {
           достигнал 50% от своя потенциал на възрастен, а на тригодишна възраст
           – 80%.
         </p>
-        <img src={BrainCells} alt="Мозъчни клетки" className={styles.brainCellsImg}/>
+        <img
+          src={BrainCells}
+          alt="Мозъчни клетки"
+          className={styles.brainCellsImg}
+        />
         <div className={styles.textHolder}>
           <div className={styles.insideBoxText}>
             Това не означава, че след тригодишна възраст клетките престават да
@@ -104,10 +108,10 @@ export default function WhyIsEarlyInterventionImportant() {
           правилното време,която да създаде базата/платформата на която да
           стъпят висшето мислене и уменията за учене (Perry, 2000)
         </h2>
-        <div className={styles.textHolder}>
+        <div className={styles.textHolder}  style={{ display: "flex", "align-items": "center" }}>
           <div className={styles.insideBoxText}>
             Правилната стимулация води до правилно:
-            <ul>
+            <ul className={styles.ulInBox}>
               <li>Когнитивно развитие</li>
               <li>Емоционално развитие</li>
               <li>Социално развитие</li>
@@ -115,8 +119,7 @@ export default function WhyIsEarlyInterventionImportant() {
               <li>Езиково развитие</li>
             </ul>
           </div>
-        </div>
-        <div className={styles.textHolder}>
+
           <div className={styles.insideBoxText}>
             За съжаление много бебета и деца не получават необходимата
             стимулация. Причини за недостатъчната стимулация и развитие на
