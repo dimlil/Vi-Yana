@@ -19,7 +19,7 @@ export default function WhyIsEarlyInterventionImportant() {
         <div className={styles.textHolder}>
           <div
             className={styles.insideBoxText}
-            style={{ display: "flex", "align-items": "center" }}
+            style={{ display: "flex", "alignItems": "center" }}
           >
             В основата на философията на ранната детска интервенция стои
             разбирането, че колкото по-рано детето и неговото семейство бъдат
@@ -108,7 +108,7 @@ export default function WhyIsEarlyInterventionImportant() {
           правилното време,която да създаде базата/платформата на която да
           стъпят висшето мислене и уменията за учене (Perry, 2000)
         </h2>
-        <div className={styles.textHolder}  style={{ display: "flex", "align-items": "center" }}>
+        <div className={styles.textHolder} style={{ "alignItems": "center" }}>
           <div className={styles.insideBoxText}>
             Правилната стимулация води до правилно:
             <ul className={styles.ulInBox}>
