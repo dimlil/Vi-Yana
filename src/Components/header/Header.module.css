@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #3c91f8;
+    background-color: #88FFD7;
 }
 
 .logoDiv {
@@ -83,7 +83,7 @@
         display: flex !important;
         justify-content: space-between;
         align-items: baseline;
-        background-color: #3c91f8;
+        background-color: #88FFD7;
     }
 }
 .headerWrapperForMobileHideShow{
@@ -93,7 +93,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: #3c91f8;
+    background-color: #88FFD7;
     padding-left: 20px;
 }
 
@@ -103,7 +103,7 @@
     
 }
 .componentWrapper{
-    background-color: #3c91f8;
+    background-color: #88FFD7;
     margin-bottom: 10px;
     padding-bottom: 15px;
 }
