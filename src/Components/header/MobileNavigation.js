@@ -17,7 +17,7 @@ function MobileNavigation(props) {
           />
           <HomePageNavigationButtons
             valueFromParent={"Полезно"}
-            link={"/useful"}
+            link={"/posts"}
           />
           <HomePageNavigationButtons
             valueFromParent={"Контакти"}

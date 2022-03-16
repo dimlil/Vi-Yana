@@ -5,7 +5,8 @@ import Home from "./Pages/HomePage/Home";
 import Footer from "./Components/footer/Footer";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage";
 import WhyIsEarlyInterventionImportant from "./Pages/WhyIsEarlyInterventionImportant/WhyIsEarlyInterventionImportantPage";
-
+import AllPosts from './Pages/AllPosts/AllPosts'
+import PostPage from './Pages/PostPage/PostPage'
 export default function Navigation() {
   return (
     <div>
@@ -13,9 +14,14 @@ export default function Navigation() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/services" component={ServicesPage} />
-          <Route path="/Why-is-early-intervention-important" component={WhyIsEarlyInterventionImportant} />
+          <Route
+            path="/Why-is-early-intervention-important"
+            component={WhyIsEarlyInterventionImportant}
+          />
           <Route path="/useful" component={Home} />
           <Route path="/contacts" component={Home} />
+          <Route path="/posts" component={AllPosts} />
+          <Route path="/posts/:id" component={PostPage} />
         </Switch>
         <Footer />
       </BrowserRouter>

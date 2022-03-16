@@ -25,7 +25,7 @@ function HeaderForHome() {
         <HomePageNavigationButtons
           valueFromParent={"Полезно"}
           parentName={"home"}
-          link={"/useful"}
+          link={"/posts"}
         />
         <HomePageNavigationButtons
           valueFromParent={"Контакти"}

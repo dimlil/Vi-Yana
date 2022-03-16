@@ -35,7 +35,7 @@ function HeaderForAllComponentsExeptHome() {
           />
           <HomePageNavigationButtons
             valueFromParent={"Полезно"}
-            link={"/useful"}
+            link={"/posts"}
           />
           <HomePageNavigationButtons
             valueFromParent={"Контакти"}
