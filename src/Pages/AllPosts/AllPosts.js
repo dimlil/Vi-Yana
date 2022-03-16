@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import styles from "./posts.module.css";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function AllPosts() {
   const [posts, setPosts] = useState("");
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
   useEffect(() => {
     const url = `${process.env.REACT_APP_API_URL}/allPosts`;
     const fetchData = async () => {
@@ -19,7 +19,7 @@ function AllPosts() {
     fetchData();
   }, []);
   const redirecting=(id)=>{
-    // navigate(`/posts/${id}`)
+    navigate(`/posts/${id}`)
   }
   return (
     <div>
