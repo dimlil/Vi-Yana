@@ -5,7 +5,6 @@ import styles from "../../styles/box.module.css";
 export default function ServicesPage() {
   return (
     <div>
-      <Header />
       <div className={styles.mainDiv}>
         <div className={styles.textHolder}>
           <div className={styles.insideBoxText}>

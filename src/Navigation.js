@@ -7,10 +7,12 @@ import ServicesPage from "./Pages/ServicesPage/ServicesPage";
 import WhyIsEarlyInterventionImportant from "./Pages/WhyIsEarlyInterventionImportant/WhyIsEarlyInterventionImportantPage";
 import AllPosts from './Pages/AllPosts/AllPosts'
 import PostPage from './Pages/PostPage/PostPage'
+import Header from "./Components/header/Header";
 export default function Navigation() {
   return (
     <div>
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<ServicesPage />} />

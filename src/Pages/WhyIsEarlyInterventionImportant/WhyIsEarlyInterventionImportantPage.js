@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "../../Components/header/Header";
 import styles from "../../styles/box.module.css";
 import BrainCells from "./BrainCells.png";
 
 export default function WhyIsEarlyInterventionImportant() {
   return (
     <div>
-      <Header />
       <div className={styles.mainDiv}>
         <p className={styles.outsideBoxText}>
           Развитието на интелекта е функция от сбора от опити, осъществени между
