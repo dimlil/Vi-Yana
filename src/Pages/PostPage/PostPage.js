@@ -20,7 +20,7 @@ function PostPage() {
   }, []);
   return (
     <div>
-      {/* {post ? (
+      {post ? (
         <div>
           {post.map((p, key) => (
             <div key={key}>
@@ -32,8 +32,7 @@ function PostPage() {
         </div>
       ) : (
         <p>Loading...</p>
-      )} */}
-      {id}
+      )}
     </div>
   );
 }
