@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navigation.module.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
 import Home from "./Pages/HomePage/Home";
 import Footer from "./Components/footer/Footer";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage";
@@ -11,18 +11,17 @@ export default function Navigation() {
   return (
     <div>
       <BrowserRouter>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/services" component={ServicesPage} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<ServicesPage />} />
           <Route
             path="/Why-is-early-intervention-important"
-            component={WhyIsEarlyInterventionImportant}
+            element={<WhyIsEarlyInterventionImportant />}
           />
-          <Route path="/useful" component={Home} />
-          <Route path="/contacts" component={Home} />
-          <Route path="/posts" component={AllPosts} />
-          <Route path="/posts/:id" component={PostPage} />
-        </Switch>
+          <Route path="/contacts" element={<Home />} />
+          <Route path="/posts" element={<AllPosts />} />
+          <Route path="/posts/:id" element={<PostPage />} />
+        </Routes>
         <Footer />
       </BrowserRouter>
       {/* <Footer /> */}
