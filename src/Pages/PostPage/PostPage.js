@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import parse from "html-react-parser";
+import styles from './post.module.css'
 
 function PostPage() {
   const [post, setPost] = useState("");
@@ -23,9 +24,8 @@ function PostPage() {
       {post ? (
         <div>
           {post.map((p, key) => (
-            <div key={key}>
-              <h1 style={{textAlign: 'center'}}>{p.title}</h1>
-              <p>{p.about}</p>
+            <div key={key} className={styles.post}>
+              <h1 className={styles.title}>{p.title}</h1>
               {parse(p.content)}
             </div>
           ))}
