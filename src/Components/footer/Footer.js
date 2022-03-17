@@ -22,8 +22,12 @@ export default function Footer() {
           <Link to="/Why-is-early-intervention-important">
             <li>Защо ранната интервенция е важна?</li>
           </Link>
-          <li>Link3</li>
-          <li>Link3</li>
+          <Link to="/posts">
+            <li>Полезно</li>
+          </Link>
+          <Link to="/contacts">
+            <li>Контакти</li>
+          </Link>
         </ul>
       </div>
     </footer>
