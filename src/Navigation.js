@@ -8,6 +8,7 @@ import WhyIsEarlyInterventionImportant from "./Pages/WhyIsEarlyInterventionImpor
 import AllPosts from './Pages/AllPosts/AllPosts'
 import PostPage from './Pages/PostPage/PostPage'
 import Header from "./Components/header/Header";
+import ContactUs from "./Pages/contactUs/ContactUs";
 export default function Navigation() {
   return (
     <div>
@@ -20,7 +21,7 @@ export default function Navigation() {
             path="/Why-is-early-intervention-important"
             element={<WhyIsEarlyInterventionImportant />}
           />
-          <Route path="/contacts" element={<Home />} />
+          <Route path="/contacts" element={<ContactUs />} />
           <Route path="/posts" element={<AllPosts />} />
           <Route path="/posts/:id" element={<PostPage />} />
         </Routes>
