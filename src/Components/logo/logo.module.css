@@ -1,3 +1,11 @@
+.logoWrapper{
+    display: flex;
+    justify-content: center;
+}
+.logoWrapper img{
+    /* width: 150px;
+    height: 150px; */
+}
 .logoText{
     font-family: 'Lobster', cursive;
     /* text-align: center; */
