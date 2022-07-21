@@ -10,9 +10,8 @@ function HeaderForHome() {
       <div className={styles.logoDiv}>
         {/* <p className={styles.viyana}>ВиЯна</p> */}
         <Logo size="100px" position="center" />
-        <p className={styles.moto}>Детски терапевтичен и игрови център</p>
+        <p className={styles.moto}>Център за ранно детско развитие</p>
         <div className={styles.linkswrapper}>
-          {/* <HomePageNavigationButtons valueFromParent={'Информация'} /> */}
           <HomePageNavigationButtons
             valueFromParent={"Услуги"}
             link={"/services"}
