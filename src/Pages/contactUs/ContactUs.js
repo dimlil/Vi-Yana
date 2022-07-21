@@ -8,7 +8,7 @@ function ContactUs() {
     <div className={styles.mainContactsWrapper}>
       <div className={styles.contactWrapper}>
         <img src={telephonPic} className={styles.pic} />
-        <h3>080...</h3>
+        <h3>0892215958</h3>
       </div>
       <div className={styles.contactWrapper}>
         <img src={locationPic} className={styles.pic} />
