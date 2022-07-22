@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer>
       <Link to="/">
-        <Logo size="50px" />
+        <Logo width='150px' height='150px' />
       </Link>
       <div>
         <ul className={styles.noTextDec}>
