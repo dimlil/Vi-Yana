@@ -9,7 +9,7 @@ function HeaderForHome() {
     <header className={styles.mainDiv}>
       <div className={styles.logoDiv}>
         {/* <p className={styles.viyana}>ВиЯна</p> */}
-        <Logo size="100px" position="center" />
+        <Logo width='250px' height='250px' />
         <p className={styles.moto}>Център за ранно детско развитие</p>
         <div className={styles.linkswrapper}>
           <HomePageNavigationButtons
